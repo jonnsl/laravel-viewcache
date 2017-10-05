@@ -1,0 +1,25 @@
+{
+    "name": "jonnsl/laravel-viewcache",
+    "description": "artisan command to compile all views.",
+    "keywords": ["laravel package"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Jonnsl\\ViewCache\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jonnsl\\ViewCache\\ViewCacheServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
