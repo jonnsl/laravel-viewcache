@@ -3,7 +3,7 @@
     "description": "artisan command to compile all views.",
     "keywords": ["laravel package"],
     "license": "MIT",
-    "type": "project",
+    "type": "library",
     "require": {
         "laravel/framework": "5.5.*"
     },
